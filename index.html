@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be My Valentine?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+
+    <div class="hearts" aria-hidden="true">
+      <span>💖</span><span>💘</span><span>💝</span><span>💕</span><span>💗</span>
+    </div>
+
+    <main class="card">
+      <p class="intro">Hey my love,</p>
+      <h1>Will you be my Valentine?</h1>
+      <p class="subtext">
+        Every moment with you feels like magic. I made this little page just to ask
+        the biggest question of my heart 💞
+      </p>
+
+      <section class="photo-strip" aria-label="Memories">
+        <img src="images/us-1.jpg" alt="Our memory 1" />
+        <img src="images/us-2.jpg" alt="Our memory 2" />
+        <img src="images/us-3.jpg" alt="Our memory 3" />
+      </section>
+
+      <div class="buttons">
+        <button id="yesBtn">Yes 💍</button>
+        <button id="noBtn">No 🙈</button>
+      </div>
+
+      <p class="response" id="response" aria-live="polite"></p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
